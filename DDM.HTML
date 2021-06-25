@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML Tutorial </title>
+<style>
+	.Total-Part{
+	background-color: lightseagreen;
+	padding: 10px;        
+	text-align: center;
+	}
+	
+	.Total-Part a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	}
+	
+	.Container{
+	display: inline;           
+	position: relative;
+	}
+	
+	.Content a{
+	display: block;     <!--upor niche-->  
+	}
+	
+	.Content{
+	position: absolute;
+	background-color: wheat;
+	left: 0px;
+	top: 30px;
+	text-align: left;
+	display: none;
+	}
+	
+	.Content a:hover{
+	background-color: gray;
+
+	}
+	
+	.Container:hover .Content{
+	display: block;  
+	}
+
+</style>
+</head>
+<body background="1.jpg">
+	
+	<div class="Total-Part">
+		
+		<a href="#">Home</a>
+			
+			<div class="Container">
+				
+				<a href="#">Course</a>
+					<div class="Content">
+						<a href="#">ICT</a>
+						<a href="#">Physics</a>
+						<a href="#">Mathematics</a>
+					</div>
+			</div>
+			
+			<div class="Container">
+			
+				<a href="#">Research Area</a>
+				
+					<div class="Content">
+						<a href="table.html">Microcontroller</a>
+						<a href="#">Robotics</a>
+						<a href="#">Home Automation</a>
+					</div>
+			</div>	
+			
+		<a href="#">Contact Me</a>
+	
+	</div>
+
+</body>
+
+</html>
